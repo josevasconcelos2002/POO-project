@@ -1,0 +1,136 @@
+Data avancou 1 dia. 
+Data avancou 1 dia. 
+Data avancou 5 dias. 
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua x 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua x 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua do ze 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua do ze 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua 2 2024-05-04
+[31m--Erro ao criar Utilizador!-- [0m 2024-05-04 
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois  2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> rua dois 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> tomas@gmail.com 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> tomas@gmail.com 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-04 
+Novo user -> joao@gmail.com 2024-05-04
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-05 
+Novo user -> tomas@gmail.com 2024-05-05
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-08 
+Novo user -> jose@email.com 2024-05-08
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-08 
+Novo user -> jose@email.com 2024-05-08
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@emgia.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@email.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> kapa@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@email.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tmelo949@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> c@gmail.com 2024-05-09
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-09 
+Novo utilizador -> tomas@gmail.com 2024-05-09
+Data avancou 1 dia. 
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> j@gmai 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> jose@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> jose@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> Jose 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> jose@email.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> p@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> j@gmail.c 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> tomas@gmail.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-10 
+Novo utilizador -> t@gm.com 2024-05-10
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-11 
+Novo utilizador -> tomas@gmail.com 2024-05-11
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-11 
+Novo utilizador -> jose@gmail.com 2024-05-11
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-11 
+Novo utilizador -> jose@gmail.com 2024-05-11
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-12T01:02:38.682824779 
+Novo utilizador -> tomas@gmail.com 2024-05-12T01:02:38.682824779
+Data avançou para 2022-12-01. 
+Data avançou para 2023-01-01. 
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-12T02:43:59.299421195 
+Novo utilizador -> tomas@gmail.com 2024-05-12T02:43:59.299421195
+[32m--Utilizador adicionado com successo!-- [0m 2024-05-12T05:09:51.512691325 
+Novo utilizador -> novoUtilizador@gmail.com 2024-05-12T05:09:51.512691325
+Data avançou para 2025-03-01. 
+Data avancou 1 dia. 
+Data avancou 5 dias. 
+Data avancou 5 dias. 
+Data avancou 5 dias. 
+Data avancou 1 dia. 
+Data avancou 1 dia. 
+Data avancou 1 dia. 
+Data avancou 5 dias. 

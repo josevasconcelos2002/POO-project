@@ -2,51 +2,74 @@ package com.myapplication.projetopoo2324.atividade;
 
 
 import com.myapplication.projetopoo2324.atividade.TipoAtividade;
-
 import com.myapplication.projetopoo2324.utilizador.Utilizador;
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-
-public class Atividade {
+public abstract class Atividade implements Serializable{
     private String nome;
     private TipoAtividade tipo;
-    private double tempoGasto;
-    private double fcm;
-    private Utilizador utilizador;
     private int iteracoes;
-    private final LocalDateTime dataHora;
-    
-    
-  public Atividade(String nome, TipoAtividade tipo, double tempoGasto, double fcm, Utilizador utilizador, int iteracoes, LocalDateTime dataHora) {
-        this.nome = nome;
+    private LocalDateTime dataHoraRealizacao;
+    private long duracao; // em segundos
+    private boolean jaRealizada;
+    private boolean eHard ;
+
+  public Atividade(String nome, TipoAtividade tipo, long duracao, int iteracoes, LocalDateTime dataHoraRealizacao , LocalDateTime dataHoraAtual, boolean eHard){
+        this.nome  = nome ;
         this.tipo = tipo;
-        this.tempoGasto = tempoGasto;
-        this.fcm = fcm;
-        this.utilizador = utilizador;
         this.iteracoes = iteracoes;
-        this.dataHora = dataHora;
+        this.dataHoraRealizacao = dataHoraRealizacao;
+        this.duracao = duracao;
+        this.eHard = eHard ; 
+        this.jaRealizada = atividadeJaRealizada(dataHoraRealizacao, duracao, dataHoraAtual);
   }
+  
 
    public Atividade() {
         this.nome = "";
-        this.tipo = null; 
-        this.tempoGasto = 0 ; 
-        this.fcm= 60; 
-        this.utilizador = null ;
+        this.tipo = null;
         this.iteracoes = 0 ;
-        this.dataHora = null;
+        this.dataHoraRealizacao = null;
+        this.duracao = 0 ;
+        eHard = false;
+        jaRealizada = false;
    }
   
   public Atividade(Atividade umaAtividade) {
         this.nome = umaAtividade.getNome(); 
-        this.tipo = umaAtividade.getTipo(); 
-        this.tempoGasto = umaAtividade.getTempoGasto(); 
-        this.fcm= umaAtividade.getFCM(); 
-        this.utilizador = umaAtividade.getUtilizador();
+        this.tipo = umaAtividade.getTipo();
         this.iteracoes = umaAtividade.getIteracoes();
-        this.dataHora = umaAtividade.getDataHora();
+        this.dataHoraRealizacao = umaAtividade.getDataHora();
+        this.duracao = umaAtividade.getDuracao();
+        this.eHard = umaAtividade.eHard();
+        this.jaRealizada = umaAtividade.getJaRealizada();
   }
 
+  public boolean getJaRealizada(){
+      return this.jaRealizada;
+  }
+
+  public void setJaRealizada(boolean jaRealizada){
+      this.jaRealizada = jaRealizada;
+  }
+  
+  public boolean eHard() {
+        return eHard;
+    }
+
+    public void setHard(boolean eHard) {
+        this.eHard = eHard;
+    }
+
+  
+    public void setDuracao(long duracao){
+      this.duracao = duracao ; 
+  }
+  
+    public long getDuracao(){
+      return this.duracao ; 
+  }
   
     public String getNome() {
         return nome;
@@ -56,14 +79,7 @@ public class Atividade {
         this.nome = nome;
     }
 
-    public double getTempoGasto() {
-        return tempoGasto;
-    }
-
-    public void setTempoGasto(double tempoGasto) {
-        this.tempoGasto = tempoGasto;
-    }
-    
+ 
     
     public int getIteracoes() {
         return iteracoes;
@@ -74,13 +90,7 @@ public class Atividade {
     }
     
     
-    public double getFCM() {
-        return fcm;
-    }
-     
-    public void setFCM(double fcm) {
-        this.fcm = fcm; 
-    }
+  
      
     public TipoAtividade getTipo(){
         return tipo; 
@@ -91,76 +101,45 @@ public class Atividade {
     }
 
     
-     public Utilizador getUtilizador() {
-        return this.utilizador;
-    }
-
-    public void setUtilizador(Utilizador utilizador) {
-        this.utilizador = utilizador;
-    }
 
     public LocalDateTime getDataHora(){
-      return this.dataHora;
+      return this.dataHoraRealizacao;
+    }
+    
+    public void setDataHora(LocalDateTime dataHoraRealizacao){
+      this.dataHoraRealizacao = dataHoraRealizacao;
     }
     
     
-   
-    /*
-   
-public double calcularCalorias() {
-   
-
-    double calorias = 0.0;
-
-  
-    switch (this.tipo) {
-        case DISTANCIA_ALTIMETRIA:
-            
-            calorias = 10 * this.tempoGasto; 
-            break;
-        case DISTANCIA:
-          
-            calorias = 8 * this.tempoGasto; 
-            break;
-        case REPETICOES:
-            
-            calorias = 5 * this.tempoGasto;
-            break;
-        case REPETICOES_COM_PESOS:
-       
-            calorias = 7 * this.tempoGasto; 
-            break;
-    }
-
-       calorias *= this.getUtilizador().calcularFatorMultiplicativo();
-
-
-    return calorias;
-}
-*/ 
-
-    
-   
-   //public abstract double calcularCalorias(Utilizador utilizador);
-
+ 
     @Override
     public String toString(){
-        return "{Nome=" + nome +
-                ", tipo='" + tipo + '\'' +
-                ", Tempo Gasto='" + tempoGasto + '\'' +
-                ", fcm='" + fcm + '\'' +
-                ", Utilizador=" + utilizador +
-                ", iteracoes=" + iteracoes +
-                ", data=" + dataHora +
-                "}";
+        return "\nAtividade = {" +
+                "\nNome = " + getNome() +
+                "\nTipo = '" + getTipo()+ '\'' +
+                "\nDuracao = '" + getDuracao() +
+                "\nIteracoes = " + getIteracoes() +
+                "\nData = " + getDataHora() +
+                "\njaRealizada = " + getJaRealizada() +
+                "\neHard = " + eHard() +
+                "\n}\n";
     }
 
 
-   @Override
-    public Atividade clone(){
-       return new Atividade(this);
-   }
-  
+        public abstract double calcularCalorias(Utilizador utilizador);
+
+        
+
+        
+public boolean atividadeJaRealizada(LocalDateTime dataHoraRealizacao, long duracao, LocalDateTime tempoAtual){
+    LocalDateTime dataHoraResultante = dataHoraRealizacao.plusSeconds(duracao);
+    return dataHoraResultante.isBefore(tempoAtual);
+}
+
+
+
+        
+        
 }
     
     
